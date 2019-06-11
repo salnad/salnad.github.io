@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,900,900i');
+
+body {
+	background: #000000;
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+}
+
+a.link-salmon {
+	color: #DA4453;
+}
+
+a.link-salmon:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.link-pink {
+	color: #BF385B;
+
+}
+
+a.link-pink:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.link-purple {
+	color: #A42C63;
+
+}
+
+a.link-purple:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.footer-link:hover {
+	color: white !important;
+	text-decoration: underline;
+}
