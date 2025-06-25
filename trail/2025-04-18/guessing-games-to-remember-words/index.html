@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-37fxchfa> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v5.1.1"><title>~ / trail / guessing-games-to-remember-words - salnad</title><link rel="stylesheet" href="/_astro/index.CL29t4r1.css">
+<style>header[data-astro-cid-56kjmc4t]{scrollbar-width:thin;scrollbar-color:#4b5563 #1f2937}.segment-container[data-astro-cid-56kjmc4t]{max-width:100%;min-width:0}.segment-link[data-astro-cid-56kjmc4t]{max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:inline-block}@media (min-width: 640px){.segment-link[data-astro-cid-56kjmc4t]{max-width:300px}}@media (min-width: 768px){.segment-link[data-astro-cid-56kjmc4t]{max-width:400px}}@media (min-width: 1024px){.segment-link[data-astro-cid-56kjmc4t]{max-width:500px}}
+.trail-post[data-astro-cid-wvs66yus] p:first-of-type{display:inline}
+[data-astro-image]{width:100%;height:auto;-o-object-fit:var(--fit);object-fit:var(--fit);-o-object-position:var(--pos);object-position:var(--pos);aspect-ratio:var(--w) / var(--h)}[data-astro-image=responsive]{max-width:calc(var(--w) * 1px);max-height:calc(var(--h) * 1px)}[data-astro-image=fixed]{width:calc(var(--w) * 1px);height:calc(var(--h) * 1px)}
+</style></head> <body class="bg-black min-h-screen flex flex-col items-center justify-center font-['Comic_Sans_Mono',_monospace] px-[10%] py-[5%]" data-astro-cid-37fxchfa> <main class="text-center w-full md:w-1/2 mx-auto" data-astro-cid-37fxchfa>  <div class="max-w-3xl mx-auto px-4 py-12" data-astro-cid-wvs66yus> <header class="py-4 mb-8 overflow-x-auto" data-astro-cid-56kjmc4t> <nav class="flex flex-wrap items-center text-2xl justify-center" data-astro-cid-56kjmc4t> <div class="flex items-center segment-container" data-astro-cid-56kjmc4t>  <a href="/" class="px-2 py-1 transition-colors segment-link text-gray-500 hover:text-white hover:underline hover:decoration-dotted" title="✨ salnad" data-astro-cid-56kjmc4t> ✨ salnad </a> </div><div class="flex items-center segment-container" data-astro-cid-56kjmc4t> <span class="mx-2 text-gray-500 flex-shrink-0" data-astro-cid-56kjmc4t>/</span> <a href="/trail" class="px-2 py-1 transition-colors segment-link text-gray-500 hover:text-white hover:underline hover:decoration-dotted" title="🔎 trail" data-astro-cid-56kjmc4t> 🔎 trail </a> </div><div class="flex items-center segment-container" data-astro-cid-56kjmc4t> <span class="mx-2 text-gray-500 flex-shrink-0" data-astro-cid-56kjmc4t>/</span> <a href="/trail/2025-04-18/guessing-games-to-remember-words" class="px-2 py-1 transition-colors segment-link text-white font-bold" title="guessing games to remember words" data-astro-cid-56kjmc4t> guessing games to remember words </a> </div> </nav> </header>  <div class="border-b border-gray-700 pb-8 mb-8" data-astro-cid-wvs66yus> <div class="text-gray-300" data-astro-cid-wvs66yus> <div class="prose prose-invert max-w-none" data-astro-cid-wvs66yus> <div class="trail-post text-left" data-astro-cid-wvs66yus> <a href="https://salnad.me/" target="_blank" class="text-white hover:text-gray-300 transition-colors underline font-bold inline-block" data-astro-cid-wvs66yus> guessing games to remember words </a> <span class="text-white text-sm" data-astro-cid-wvs66yus> —— </span> <p>something i’ve been struggling with personally is how much to offload to llms. on one hand — the technology is fascinating, powerful, and enables me to learn and do more than before. on the other hand — it dulls my technical skills and robs me of learning opportunities.</p>
+<p>(⚠️ disclaimer: i have no empirical evidence for this, i’m going off vibes ✨)</p>
+<!-- TODO(salnad): add link to bookshelf when completed, also move this into the tidbits section -->
+<p>one, somewhat silly, way this manifests is when i forget a word. my memory for vocabulary has definitely been trending downwards, largely due to the fact i’m reading less (something i’m trying to fix) but partially because more and more, for my writing and conversation, i rely on llms to solve my problems.</p>
+<p>to try to find the best of both worlds (and to generally continue experimenting with using llms to learn), i’ve decided to make it into a guessing game! here’s an example of of it in action.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="xml"><code><span class="line"><span style="color:#E1E4E8">&#x3C;</span><span style="color:#85E89D">Conversation</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;</span><span style="color:#85E89D">User</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">    Im looking for a word to fill the xxxx, and there's one on the tip of my tongue but I don't know it! Give me hints to bring me close to the word, without actually using the word. Start with a vague one, and if I ask for more, give me more specific ones:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">    Hello!</span></span>
+<span class="line"><span style="color:#E1E4E8">    I'm looking to reserve a party of between 10 to 15 people for the [redacted for privacy]. I'm looking for availability on the dates below, listed in order of xxxx:</span></span>
+<span class="line"><span style="color:#E1E4E8">      </span></span>
+<span class="line"><span style="color:#E1E4E8">    Sunday, May 4th in the afternoon after 3pm for 2 hours</span></span>
+<span class="line"><span style="color:#E1E4E8">    Saturday, May 4th in the afternoon after 3pm for 2 hours</span></span>
+<span class="line"><span style="color:#E1E4E8">    Sunday, May 11th in the afternoon after 3pm for 2 hours</span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;/</span><span style="color:#85E89D">User</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;</span><span style="color:#85E89D">LLM</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">    Alright, let’s play a word-guessing game! 😄</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">    Here’s your first vague hint:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">    🧭 It’s something you’d use when trying to make the best choice among a set of options.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">    Let me know when you want a second, more specific hint!</span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;/</span><span style="color:#85E89D">LLM</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;</span><span style="color:#85E89D">User</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">    is it priority?</span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;/</span><span style="color:#85E89D">User</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;</span><span style="color:#85E89D">LLM</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">    Ooooh, very close — you're right in the neighborhood! That word fits the sentence, but it’s not quite the one I think you're searching for based on your “tip of the tongue” feeling.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">    Here’s a second, slightly more specific hint:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">    📊 This word often comes up in decision-making or optimization contexts — especially when you’re ranking options based on how desirable or suitable they are.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">    Want a third hint? You're so close.</span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;/</span><span style="color:#85E89D">LLM</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;</span><span style="color:#85E89D">User</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">    preference!</span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;/</span><span style="color:#85E89D">User</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;</span><span style="color:#85E89D">LLM</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">    🎯 Bulls-eye!! Yes — preference is exactly the word I was orbiting around.</span></span>
+<span class="line"><span style="color:#E1E4E8">  &#x3C;/</span><span style="color:#85E89D">LLM</span><span style="color:#E1E4E8">></span></span>
+<span class="line"><span style="color:#E1E4E8">&#x3C;/</span><span style="color:#85E89D">Conversation</span><span style="color:#E1E4E8">></span></span></code></pre>
+<p>was fun, and a useful way to learn! i’ll try to find and document more of these.</p> </div> </div> </div> <div class="mt-4 flex items-center flex-wrap text-left" data-astro-cid-wvs66yus> <div class="mr-4" data-astro-cid-wvs66yus> <div class="flex flex-wrap gap-x-6 text-sm text-gray-400"> <div>  2025-04-18 </div> <div>  2025-04-18 </div> </div> </div> <div class="text-sm text-gray-500 inline-flex flex-wrap"><span><a href="/tag/llms" class="hover:text-gray-300 transition-colors">
+#llms</a>, </span><span><a href="/tag/games" class="hover:text-gray-300 transition-colors">
+#games</a>, </span><span><a href="/tag/mental-autonomy" class="hover:text-gray-300 transition-colors">
+#mental-autonomy</a>, </span><span><a href="/tag/learning" class="hover:text-gray-300 transition-colors">
+#learning</a>, </span><span><a href="/tag/prompt" class="hover:text-gray-300 transition-colors">
+#prompt</a></span></div> </div> </div> </div>  </main>  </body></html> 
